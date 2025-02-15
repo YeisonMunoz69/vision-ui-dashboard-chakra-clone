@@ -345,7 +345,7 @@ function SignUp() {
             flexDirection='column'
             justifyContent='center'
             alignItems='center'
-            position='absolute'>
+            >
             <Text
               textAlign='center'
               color='white'

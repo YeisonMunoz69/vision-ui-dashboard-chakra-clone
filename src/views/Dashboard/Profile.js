@@ -56,6 +56,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import { FaCube, FaFacebook, FaInstagram, FaPencilAlt, FaPenFancy, FaTwitter } from 'react-icons/fa';
 // Icons
 import { IoDocumentsSharp } from 'react-icons/io5';
+import { FaBoltLightning } from "react-icons/fa6";
 // Data
 import {
 	lineChartDataProfile1,
@@ -233,11 +234,11 @@ function Profile() {
 									size={200}
 									value={68}
 									thickness={6}
-									color='green.400'
+									color='green.400' 
 									variant='vision'>
 									<CircularProgressLabel>
 										<Flex direction='column' justify='center' align='center'>
-											<LightningIcon w='14px' h='22px' mb='8px' />
+											<FaBoltLightning w='8px' h='14px' mb='5px' />
 											<Text color='#fff' fontSize='36px' fontWeight='bold' mb='6px'>
 												68%
 											</Text>

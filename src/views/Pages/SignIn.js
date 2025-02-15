@@ -164,8 +164,8 @@ function SignIn() {
               mt='0px'>
               <Text color={textColor} fontWeight='medium'>
                 Don't have an account?
-                <Link color={titleColor} as='span' ms='5px' fontWeight='bold'>
-                  Sign Up
+                <Link to="/#/auth/signup" color={titleColor} as='span' ms='5px' fontWeight='bold'>
+                  SignUp
                 </Link>
               </Text>
             </Flex>
@@ -198,7 +198,7 @@ function SignIn() {
             flexDirection='column'
             justifyContent='center'
             alignItems='center'
-            position='absolute'>
+            >
             <Text
               textAlign='center'
               color='white'
