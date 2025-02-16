@@ -64,7 +64,7 @@ function Billing() {
               md: "1fr 1fr",
             }}
             gap='26px'>
-              {/* Mastercard */}
+            {/* Mastercard */}
             <Card
               backgroundImage={BackgroundCard1}
               backgroundRepeat='no-repeat'
@@ -101,7 +101,7 @@ function Billing() {
                     </Box>
                     <Flex mt='14px'>
                       <Flex direction='column' me='34px'>
-                        <Text fontSize='xs'>VALID THRU</Text>
+                        <Text fontSize='xs'>VÁLIDO HASTA</Text>
                         <Text fontSize='xs' fontWeight='bold'>
                           05/24
                         </Text>
@@ -117,7 +117,7 @@ function Billing() {
                 </Flex>
               </CardBody>
             </Card>
-            {/* Credit Balance */}
+            {/* Saldo de Crédito */}
             <Card>
               <Flex direction='column'>
                 <Flex
@@ -128,7 +128,7 @@ function Billing() {
                   borderRadius='18px'>
                   <Flex direction='column'>
                     <Text color='#E9EDF7' fontSize='12px'>
-                      Credit Balance
+                      Saldo de Crédito
                     </Text>
                     <Text color='#fff' fontWeight='bold' fontSize='34px'>
                       $25,215
@@ -154,7 +154,7 @@ function Billing() {
                   </Flex>
                 </Flex>
                 <Text fontSize='10px' color='gray.400' mb='8px'>
-                  NEWEST
+                  MÁS RECIENTE
                 </Text>
                 <Flex justify='space-between' align='center'>
                   <Flex align='center'>
@@ -168,10 +168,10 @@ function Billing() {
                     </IconBox>
                     <Flex direction='column'>
                       <Text color='#fff' fontSize='sm' mb='2px'>
-                        Bill & Taxes
+                        Facturas e Impuestos
                       </Text>
                       <Text color='gray.400' fontSize='sm'>
-                        Today, 16:36
+                        Hoy, 16:36
                       </Text>
                     </Flex>
                   </Flex>
@@ -182,7 +182,7 @@ function Billing() {
               </Flex>
             </Card>
           </Grid>
-          {/* Payment Method */}
+          {/* Método de Pago */}
           <Card p='16px' mt='24px'>
             <CardHeader>
               <Flex
@@ -191,10 +191,10 @@ function Billing() {
                 minHeight='60px'
                 w='100%'>
                 <Text fontSize='lg' color='#fff' fontWeight='bold'>
-                  Payment Method
+                  Método de Pago
                 </Text>
                 <Button maxW='135px' fontSize='10px' variant='brand'>
-                  ADD A NEW CARD
+                  AÑADIR UNA NUEVA TARJETA
                 </Button>
               </Flex>
             </CardHeader>
@@ -263,7 +263,7 @@ function Billing() {
             </CardBody>
           </Card>
         </Box>
-        {/* Invoices List */}
+        {/* Lista de Facturas */}
         <Card
           p='22px'
           my={{ sm: "24px", lg: "0px" }}
@@ -272,18 +272,17 @@ function Billing() {
             <Flex
               justify='space-between'
               align='center'
-              mb='1rem'
-              w='100%'
-              mb='28px'>
+              mb='28px'
+              w='100%'>
               <Text fontSize='lg' color='#fff' fontWeight='bold'>
-                Invoices
+                Facturas
               </Text>
               <Button
                 variant='brand'
                 fontSize='10px'
                 fontWeight='bold'
                 p='6px 32px'>
-                VIEW ALL
+                VER TODAS
               </Button>
             </Flex>
           </CardHeader>
@@ -305,12 +304,12 @@ function Billing() {
         </Card>
       </Grid>
       <Grid templateColumns={{ sm: "1fr", lg: "60% 38%" }}>
-        {/* Billing Information */}
+        {/* Información de Facturación */}
         <Card my={{ lg: "24px" }} me={{ lg: "24px" }}>
           <Flex direction='column'>
             <CardHeader py='12px'>
               <Text color='#fff' fontSize='lg' fontWeight='bold'>
-                Billing Information
+                Información de Facturación
               </Text>
             </CardHeader>
             <CardBody>
@@ -329,7 +328,7 @@ function Billing() {
             </CardBody>
           </Flex>
         </Card>
-        {/* Transactions List */}
+        {/* Lista de Transacciones */}
         <Card my='24px' ms={{ lg: "24px" }}>
           <CardHeader mb='12px'>
             <Flex direction='column' w='100%'>
@@ -343,19 +342,18 @@ function Billing() {
                   color='#fff'
                   fontSize={{ sm: "lg", md: "xl", lg: "lg" }}
                   fontWeight='bold'>
-                  Your Transactions
+                  Tus Transacciones
                 </Text>
                 <Flex align='center'>
                   <Icon
                     as={FaRegCalendarAlt}
-                    color='gray.400'
                     w='15px'
                     h='15px'
                     color='#fff'
                     me='6px'
                   />
                   <Text color='gray.400' fontSize='sm'>
-                    23 - 30 March 2021
+                    23 - 30 de marzo 2021
                   </Text>
                 </Flex>
               </Flex>
@@ -364,7 +362,7 @@ function Billing() {
           <CardBody>
             <Flex direction='column' w='100%'>
               <Text color='gray.400' fontSize='xs' mb='18px'>
-                NEWEST
+                NUEVAS
               </Text>
               {newestTransactions.map((row) => {
                 return (
@@ -377,7 +375,7 @@ function Billing() {
                 );
               })}
               <Text color='gray.400' fontSize='xs' my='18px'>
-                OLDER
+                ANTERIORES
               </Text>
               {olderTransactions.map((row) => {
                 return (

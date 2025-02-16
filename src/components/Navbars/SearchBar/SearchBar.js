@@ -55,7 +55,7 @@ export function SearchBar(props) {
       <Input
         fontSize='xs'
         py='11px'
-        placeholder='Type here...'
+        placeholder='Escribe aquí...'
         borderRadius='inherit'
       />
     </InputGroup>

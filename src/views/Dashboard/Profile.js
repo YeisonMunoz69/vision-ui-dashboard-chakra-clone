@@ -111,10 +111,10 @@ function Profile() {
 									color='#fff'
 									fontWeight='bold'
 									ms={{ sm: '8px', md: '0px' }}>
-									Mark Johnson
+									Yeison Muñoz
 								</Text>
 								<Text fontSize={{ sm: 'sm', md: 'md' }} color='gray.400'>
-									mark@simmmple.com
+									yjmunoz@unimayor.edu.com
 								</Text>
 							</Flex>
 						</Flex>
@@ -127,7 +127,7 @@ function Profile() {
 								me={{ base: 'none', lg: '20px' }}
 								leftIcon={<Icon color='white' as={FaCube} me='6px' />}>
 								<Text fontSize='xs' color='#fff' fontWeight='bold'>
-									OVERVIEW
+									VISTA GENERAL
 								</Text>
 							</Button>
 							<Button
@@ -142,7 +142,7 @@ function Profile() {
 								me={{ base: 'none', lg: '20px' }}
 								leftIcon={<Icon color='white' as={IoDocumentsSharp} me='6px' />}>
 								<Text fontSize='xs' color='#fff' fontWeight='bold'>
-									TEAMS
+									EQUIPOS
 								</Text>
 							</Button>
 							<Button
@@ -156,7 +156,7 @@ function Profile() {
 								}}
 								leftIcon={<Icon color='white' as={FaPenFancy} me='6px' />}>
 								<Text fontSize='xs' color='#fff' fontWeight='bold'>
-									PROJECTS
+									PROYECTOS
 								</Text>
 							</Button>
 						</Flex>
@@ -180,10 +180,10 @@ function Profile() {
 					gridArea={{ xl: '1 / 1 / 2 / 2', '2xl': 'auto' }}>
 					<Flex direction='column' h='100%'>
 						<Text color='#fff' fontSize='30px' fontWeight='bold' mb='3px'>
-							Welcome back!
+							¡Bienvenido de nuevo!
 						</Text>
 						<Text color='#fff' fontSize='sm' mb='auto'>
-							Nice to see you, Mark Johnson!
+							¡Qué bueno verte, Yeison Muñoz!
 						</Text>
 						<Button alignSelf='flex-start' variant='no-hover' bg='transparent' p='0px'>
 							<Text
@@ -193,7 +193,7 @@ function Profile() {
 								cursor='pointer'
 								transition='all .3s ease'
 								_hover={{ me: '6px' }}>
-								Tab to record
+								Pulsa para registrar
 							</Text>
 							<Icon
 								as={BsArrowRight}
@@ -216,10 +216,10 @@ function Profile() {
 					<CardHeader p='12px 5px' mb='12px'>
 						<Flex direction='column'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold' mb='6px'>
-								Car Informations
+								Información del Vehículo
 							</Text>
 							<Text fontSize='sm' color='gray.400'>
-								Hello, Mark Johnson! Your Car is ready.
+								¡Hola, Yeison Muñoz! Tu coche está listo.
 							</Text>
 						</Flex>
 					</CardHeader>
@@ -243,7 +243,7 @@ function Profile() {
 												68%
 											</Text>
 											<Text color='gray.400' fontSize='sm'>
-												Current load
+												Carga actual
 											</Text>
 										</Flex>
 									</CircularProgressLabel>
@@ -253,7 +253,7 @@ function Profile() {
 										0h 58 min
 									</Text>
 									<Text color='gray.500' fontSize='sm'>
-										Time to full charge
+										Tiempo para carga completa
 									</Text>
 								</Flex>
 							</Flex>
@@ -270,7 +270,7 @@ function Profile() {
 									borderRadius='20px'>
 									<Flex direction='column' me='auto'>
 										<Text fontSize='xs' color='gray.400' mb='3px'>
-											Battery Health
+											Salud de la Batería
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
 											76%
@@ -290,7 +290,7 @@ function Profile() {
 									borderRadius='20px'>
 									<Flex direction='column' me='auto'>
 										<Text fontSize='xs' color='gray.400' mb='3px'>
-											Efficiency
+											Eficiencia
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
 											+20%
@@ -311,7 +311,7 @@ function Profile() {
 									borderRadius='20px'>
 									<Flex direction='column' me='auto'>
 										<Text fontSize='xs' color='gray.400' mb='3px'>
-											Consumption
+											Consumo
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
 											163W/km
@@ -330,7 +330,7 @@ function Profile() {
 									borderRadius='20px'>
 									<Flex direction='column' me='auto'>
 										<Text fontSize='xs' color='gray.400' mb='3px'>
-											This Week
+											Esta Semana
 										</Text>
 										<Text color='#fff' fontSize='22px' fontWeight='bold'>
 											1.342km
@@ -355,44 +355,42 @@ function Profile() {
 					gridArea={{ xl: '1 / 2 / 2 / 3', '2xl': 'auto' }}>
 					<CardHeader p='12px 5px' mb='12px'>
 						<Text fontSize='lg' color='#fff' fontWeight='bold'>
-							Profile Information
+							Información del Perfil
 						</Text>
 					</CardHeader>
 					<CardBody px='5px'>
 						<Flex direction='column'>
 							<Text fontSize='sm' color={'gray.400'} fontWeight='400' mb='15px'>
-								Hi, I’m Mark Johnson, Decisions: If you can’t decide, the answer is no. If two equally
-								difficult paths, choose the one more painful in the short term (pain avoidance is
-								creating an illusion of equality).
+								Hola, soy Yeison Muñoz. Decisiones: Si no puedes decidir, la respuesta es no. Si hay dos caminos igualmente difíciles, elige el que sea más doloroso a corto plazo (evitar el dolor crea una ilusión de igualdad).
 							</Text>
 							<Separator mb='30px' />
 							<Flex align='center' mb='18px'>
 								<Text fontSize='sm' color={'gray.400'} me='10px'>
-									Full Name:{' '}
+									Nombre Completo:{' '}
 								</Text>
 								<Text fontSize='sm' color='#fff' fontWeight='400'>
-									Mark Johnson
+									Yeison Javier Muñoz Gomez
 								</Text>
 							</Flex>
 							<Flex align='center' mb='18px'>
 								<Text fontSize='sm' color={'gray.400'} me='10px'>
-									Mobile:{' '}
+									Móvil:{' '}
 								</Text>
 								<Text fontSize='sm' color='#fff' fontWeight='400'>
-									(44) 123 1234 123
+									(+57) * * * * * * * * * *
 								</Text>
 							</Flex>
 							<Flex align='center' mb='18px'>
 								<Text fontSize='sm' color={'gray.400'} me='10px'>
-									Email:{' '}
+									Correo:{' '}
 								</Text>
 								<Text fontSize='sm' color='#fff' fontWeight='400'>
-									mark@simmmple.com
+									yjmunoz@unimayor.edu.com
 								</Text>
 							</Flex>
 							<Flex align='center' mb='18px'>
 								<Text fontSize='sm' color={'gray.400'} me='10px'>
-									Location:{' '}
+									Ubicación:{' '}
 								</Text>
 								<Text fontSize='sm' color='#fff' fontWeight='400'>
 									United States
@@ -400,7 +398,7 @@ function Profile() {
 							</Flex>
 							<Flex align='center' mb='18px'>
 								<Text fontSize='sm' color={'gray.400'} me='10px'>
-									Social Media:{' '}
+									Redes Sociales:{' '}
 								</Text>
 								<Flex>
 									<Link
@@ -439,57 +437,57 @@ function Profile() {
 					<Card p='16px' gridArea={{ xl: '1 / 1 / 2 / 2' }}>
 						<CardHeader p='12px 5px' mb='12px'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold'>
-								Platform Settings
+								Configuración de la Plataforma
 							</Text>
 						</CardHeader>
 						<CardBody px='5px'>
 							<Flex direction='column'>
 								<Text fontSize='10px' color={'gray.400'} mb='20px'>
-									ACCOUNT
+									CUENTA
 								</Text>
 								<Flex align='center' mb='20px'>
 									<Switch variant='brand' colorScheme='brand' me='10px' defaultChecked />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Email me when someone follows me
+										Envíame un correo cuando alguien me siga
 									</Text>
 								</Flex>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Email me when someone answers on my post
+										Envíame un correo cuando alguien responda a mi publicación
 									</Text>
 								</Flex>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' defaultChecked />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Email me when someone mentions me
+										Envíame un correo cuando alguien me mencione
 									</Text>
 								</Flex>
 								<Text fontSize='10px' color={'gray.400'} m='6px 0px 20px 0px'>
-									APPLICATION
+									APLICACIÓN
 								</Text>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										New launches and projects
+										Nuevos lanzamientos y proyectos
 									</Text>
 								</Flex>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' defaultChecked />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Monthly product changes
+										Cambios mensuales en el producto
 									</Text>
 								</Flex>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Subscribe to newsletter
+										Suscribirme al boletín
 									</Text>
 								</Flex>
 								<Flex align='center' mb='20px'>
 									<Switch colorScheme='brand' me='10px' defaultChecked />
 									<Text noOfLines={1} fontSize='sm' color={'gray.400'} fontWeight='400'>
-										Receive mails weekly
+										Recibir correos semanalmente
 									</Text>
 								</Flex>
 							</Flex>
@@ -501,10 +499,10 @@ function Profile() {
 					<CardHeader p='12px 5px' mb='12px'>
 						<Flex direction='column'>
 							<Text fontSize='lg' color='#fff' fontWeight='bold'>
-								Projects
+								Proyectos
 							</Text>
 							<Text fontSize='sm' color={'gray.400'} fontWeight='400'>
-								Architects design houses
+								Arquitectos diseñan casas
 							</Text>
 						</Flex>
 					</CardHeader>
@@ -527,13 +525,13 @@ function Profile() {
 								</Box>
 								<Flex direction='column'>
 									<Text fontSize='10px' color={'gray.400'} mb='10px'>
-										Project #1
+										Proyecto #1
 									</Text>
 									<Text fontSize='xl' color='#fff' fontWeight='bold' mb='10px'>
-										Modern
+										Moderno
 									</Text>
 									<Text fontSize='sm' color={'gray.400'} fontWeight='400' mb='20px'>
-										As Uber works through a huge amount of internal management turmoil.
+										Mientras Uber atraviesa una gran cantidad de conflictos internos de gestión.
 									</Text>
 									<Flex justifyContent='space-between' mt='auto'>
 										<Button
@@ -542,7 +540,7 @@ function Profile() {
 											h='36px'
 											fontSize='10px'
 											px='1.5rem'>
-											VIEW ALL
+											VER TODO
 										</Button>
 										<AvatarGroup size='xs'>
 											<Avatar borderColor='#121241' name='Ryan Florence' src={avatar6} />
@@ -559,13 +557,13 @@ function Profile() {
 								</Box>
 								<Flex direction='column'>
 									<Text fontSize='10px' color={'gray.400'} mb='10px'>
-										Project #2
+										Proyecto #2
 									</Text>
 									<Text fontSize='xl' color='#fff' fontWeight='bold' mb='10px'>
-										Scandinavian
+										Escandinavo
 									</Text>
 									<Text fontSize='sm' color={'gray.400'} mb='20px'>
-										Music is something that every person has his or her own specific opinion about.
+										La música es algo sobre lo que cada persona tiene su propia opinión.
 									</Text>
 									<Flex justifyContent='space-between' mt='auto'>
 										<Button
@@ -574,7 +572,7 @@ function Profile() {
 											h='36px'
 											fontSize='10px'
 											px='1.5rem'>
-											VIEW ALL
+											VER TODO
 										</Button>
 										<AvatarGroup size='xs'>
 											<Avatar borderColor='#121241' name='Ryan Florence' src={avatar6} />
@@ -591,13 +589,13 @@ function Profile() {
 								</Box>
 								<Flex direction='column'>
 									<Text fontSize='10px' color={'gray.400'} mb='10px'>
-										Project #3
+										Proyecto #3
 									</Text>
 									<Text fontSize='xl' color='#fff' fontWeight='bold' mb='10px'>
-										Minimalist
+										Minimalista
 									</Text>
 									<Text fontSize='sm' color={'gray.400'} fontWeight='400' mb='20px'>
-										Different people have different taste, especially various types of music.
+										Cada persona tiene gustos diferentes, especialmente en cuanto a diversos tipos de música.
 									</Text>
 									<Flex justifyContent='space-between' mt='auto'>
 										<Button
@@ -606,7 +604,7 @@ function Profile() {
 											h='36px'
 											fontSize='10px'
 											px='1.5rem'>
-											VIEW ALL
+											VER TODO
 										</Button>
 										<AvatarGroup size='xs'>
 											<Avatar borderColor='#121241' name='Ryan Florence' src={avatar6} />
